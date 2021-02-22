@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
+    android:background="@color/Sage"
     tools:context=".MainActivity">
 
     <EditText
@@ -26,7 +26,7 @@
         android:layout_width="40dp"
         android:layout_height="46dp"
         android:background="@color/cardview_shadow_end_color"
-        android:onClick="onClick"
+        android:contentDescription="send button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.778"
